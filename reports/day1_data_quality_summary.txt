@@ -1,0 +1,13 @@
+DAY 1 DATA QUALITY SUMMARY
+==========================
+fund_house (10 unique): ['Aditya Birla Sun Life MF', 'Axis Mutual Fund', 'DSP Mutual Fund', 'HDFC Mutual Fund', 'ICICI Prudential MF', 'Kotak Mahindra MF', 'Mirae Asset MF', 'Nippon India MF', 'SBI Mutual Fund', 'UTI Mutual Fund']
+category (2 unique): ['Debt', 'Equity']
+sub_category (12 unique): ['ELSS', 'Flexi Cap', 'Gilt', 'Index', 'Index/ETF', 'Large & Mid Cap', 'Large Cap', 'Liquid', 'Mid Cap', 'Short Duration', 'Small Cap', 'Value']
+risk_category (5 unique): ['High', 'Low', 'Moderate', 'Moderately High', 'Very High']
+Unique fund master AMFI codes: 40
+Unique NAV history AMFI codes: 40
+Fund master codes missing from NAV history: 0
+Missing codes: []
+AMFI scheme codes are numeric identifiers; do not assume their digits encode fund house, category, or plan. Use fund_master metadata for those attributes.
+Potential anomalies:
+- 04_monthly_sip_inflows.csv: empty=False, missing_cells=12, duplicate_rows=0
